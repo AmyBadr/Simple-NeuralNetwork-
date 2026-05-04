@@ -1,0 +1,7 @@
+# GitHub Push Instructions for VS Code
+training_checkpoints/
+#Prevent Git from uploading Heavy files
+    *.h5 
+    *.keras
+    .ipynb_checkpoints/
+    __pycache__/
